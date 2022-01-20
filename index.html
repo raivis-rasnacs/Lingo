@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <center>
+    <div id="lives">
+      <img src="heart.png">
+      <img src="heart.png">
+      <img src="heart.png">
+    </div>
+    <table id="gameField">
+      <tr id="guess1">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="guess2">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="guess3">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="guess4">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="guess5">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="currentGuess">
+        <td><input oninput="jump(this.id)" id="letter1" maxlength="1"></input></td>
+        <td><input oninput="jump(this.id)" id="letter2" maxlength="1"></input></td>
+        <td><input oninput="jump(this.id)" id="letter3" maxlength="1"></input></td>
+        <td><input oninput="jump(this.id)" id="letter4" maxlength="1"></input></td>
+        <td><input id="letter5"></input></td>
+      </tr>
+    </table>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>

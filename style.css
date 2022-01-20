@@ -1,0 +1,35 @@
+* {
+  font-family: "Arial";
+}
+
+table {
+  border-collapse:collapse;
+}
+
+td, tr {
+  border:1px solid black;
+  width:40px;
+  height:40px;
+}
+
+td {
+  text-align:center;
+  font-size:18pt;
+}
+
+#currentGuess {
+  border-top:3px solid black;
+}
+
+input {
+  height:inherit;
+  width:inherit;
+  font-size:18pt;
+  text-transform:uppercase;
+  border:none;
+  text-align:center;
+}
+
+#lives > img {
+  width:15px;
+}
